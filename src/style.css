@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 270px;
+  height: 50%;
+  align-content: center;
+}
+
+#up {
+  font-size: 4em;
+}
+
+#bot {
+  font-size: 4em;
+}
+
+#number {
+  font-size: 6em;
+}
