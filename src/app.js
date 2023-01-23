@@ -22,7 +22,7 @@ window.onload = function() {
     case 1:
       document.getElementById("up").innerHTML = "♦";
       document.getElementById("bot").innerHTML = "♦";
-      cardContainer.style.color = "blue";
+      cardContainer.style.color = "red";
       break;
     case 2:
       document.getElementById("up").innerHTML = "♥";
@@ -37,7 +37,7 @@ window.onload = function() {
     case 4:
       document.getElementById("up").innerHTML = "♣";
       document.getElementById("bot").innerHTML = "♣";
-      cardContainer.style.color = "green";
+      cardContainer.style.color = "black";
       break;
     default:
       break;
@@ -62,7 +62,7 @@ window.newButton = function newCard() {
     case 1:
       document.getElementById("up").innerHTML = "♦";
       document.getElementById("bot").innerHTML = "♦";
-      cardContainer.style.color = "blue";
+      cardContainer.style.color = "red";
       break;
     case 2:
       document.getElementById("up").innerHTML = "♥";
@@ -77,7 +77,7 @@ window.newButton = function newCard() {
     case 4:
       document.getElementById("up").innerHTML = "♣";
       document.getElementById("bot").innerHTML = "♣";
-      cardContainer.style.color = "green";
+      cardContainer.style.color = "black";
       break;
     default:
       break;
@@ -102,7 +102,7 @@ window.setInterval(function newCard() {
     case 1:
       document.getElementById("up").innerHTML = "♦";
       document.getElementById("bot").innerHTML = "♦";
-      cardContainer.style.color = "blue";
+      cardContainer.style.color = "red";
       break;
     case 2:
       document.getElementById("up").innerHTML = "♥";
@@ -117,7 +117,7 @@ window.setInterval(function newCard() {
     case 4:
       document.getElementById("up").innerHTML = "♣";
       document.getElementById("bot").innerHTML = "♣";
-      cardContainer.style.color = "green";
+      cardContainer.style.color = "black";
       break;
     default:
       break;

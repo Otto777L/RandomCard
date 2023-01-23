@@ -16,3 +16,7 @@
 #number {
   font-size: 6em;
 }
+
+.rotate {
+  transform: rotate(-180deg);
+}
