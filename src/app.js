@@ -5,13 +5,13 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let buttonh = document.getElementById("height");
-let buttonw = document.getElementById("width");
+let buttonH = document.getElementById("height");
+let buttonW = document.getElementById("width");
 const cardContainer = document.querySelector(".card");
-buttonh.addEventListener("change", function changeHeight(event) {
+buttonH.addEventListener("change", function changeHeight(event) {
   cardContainer.style.height = event.target.value + "px";
 });
-buttonw.addEventListener("change", function changeWidth(event) {
+buttonW.addEventListener("change", function changeWidth(event) {
   cardContainer.style.width = event.target.value + "px";
 });
 
